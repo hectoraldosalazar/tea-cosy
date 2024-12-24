@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./resources/css/index.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+
+    <ul>
+      <li><a href="#">Mission</a></li>
+      <li><a href="#">Feature Tea</a></li>
+      <li><a href="#">Location</a></li>
+    </ul>
+
+  </header>
+
+  <main>
+    <!-- Background image 1 -->
+    <div class="container">
+      <div class="h2-h4">
+        <h2 class="h2-container">Our mission</h2>
+        <h4 class="h4-container">Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade,
+          Organic Tea</h4>
+      </div>
+    </div>
+    <!-- Banner tea of the month -->
+    <div class="container-banner-tea">
+      <h2 class="h2-container-tea">Tea of the Month</h2>
+      <h4 class="h4-container-tea">What is Steeping at The Tea Cosy</h4>
+    </div>
+    <!-- Rest of the images -->
+    <div class="container-images">
+      <div class="images">
+        <img class="the-image" src="./resources/images/img-berryblitz.jpg" alt="cup of berry blitx tea">
+        <p class="text-images">Fall Berry Blitz Tea</p>
+      </div>
+      <div class="images">
+        <img class="the-image" src="./resources/images/img-spiced-rum.jpg" alt="a wooden box of spice rum tea">
+        <p class="text-images">Spiced Rum Tea</p>
+      </div>
+      <div class="images">
+        <img class="the-image" src="./resources/images/img-donut.jpg" alt="a thick seasonal donut">
+        <p class="text-images">Seasonal Donuts</p>
+      </div>
+    </div>
+    <div class="container-images"><!-- here is the other container for images -->
+      <div class="images">
+        <img class="the-image" src="./resources/images/img-myrtle-ave.jpg" alt="a thick seasonal donut">
+        <p class="text-images">Myrtle Ave Tea</p>
+      </div>
+      <div class="images">
+        <img class="the-image" src="./resources/images/img-bedford-bizarre.jpg" alt="a cup of bizarre tea">
+        <p class="text-images">Bedford Bizarre Tea</p>
+      </div>
+    </div>
+    <!-- bacnkground image 2 -->
+    <div class="container-location">
+      <div class="containerh1-location">
+        <h1 class="h1-location">Location</h1>
+      </div>
+      <div class="container-background2">
+        <div class="bacnkground2">
+          <h1>Downtown</h1>
+          <p>384 West 4th St</p>
+          <p>Suite 108</p>
+          <p>Portland, Maine</p>
+        </div>
+        <div class="bacnkground2">
+          <h1>East Bayside</h1>
+          <p>3433 Phishermans Avenue</p>
+          <p>(North Corner)</p>
+          <p>Portland, Maine</p>
+        </div>
+        <div class="bacnkground2">
+          <h1>Oakdale</h1>
+          <p>515 Crescent Avenue</p>
+          <p>Second Floor</p>
+          <p>Portland, Maine</p>
+        </div>
+      </div>
+      <!-- The tea cozy banner -->
+    </div>
+    <div class="container-banner-tea">
+      <h2 class="h2-container-tea">The Thea Cosy</h2>
+      <h4 class="h4-container-tea">contact@theteacozy.com</h5>
+      <p>917-555-8904</p>
+    </div>
+  </main>
+
+  <footer>
+    <p class="p-footer">copyright The Tea Cozy 2017</p>
+  </footer>
+
+</body>
+
+</html>
