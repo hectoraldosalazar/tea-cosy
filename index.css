@@ -1,0 +1,146 @@
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    padding-top: 69px;   
+}
+
+header{
+    background-image: url(../images/img-tea-cozy-logo.png);
+    background-size: 200px 50px; 
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: black; 
+    text-align: right;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    top:0;
+     
+}
+
+ul{
+    padding-right: 20px;
+}
+
+
+li{
+    display: inline-block;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+
+.container{
+    background-image: url(../images/img-mission-background.jpg);
+    background-size: 2000px 700px; 
+    background-repeat: no-repeat; 
+    height: 700px;
+    width: 2000%px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.h2-h4{
+    background-color: black;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.h2-container{
+    text-align: center;
+}
+
+.h4-container{
+    width: 1000px;
+}
+
+.container-banner-tea{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    
+}
+
+.h2-container-tea.h4-container-tea{
+    width: 1000px;
+}
+
+.container-images{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.images{
+    height: 300px;
+    width: 400px;
+}
+
+.the-image{
+    height: 200px;
+    width: 300px;
+}
+.text-images{
+    padding-left: 60px;
+    margin-top: 10px;
+}
+
+.container-location{
+    height: 700px;
+    width: 1500px;
+    margin-left: 200px;
+    margin-right: 500px;
+    background-image: url(../images/img-locations-background.jpg);
+    background-size: 2000px 700px; 
+    background-repeat: no-repeat;
+
+}
+
+.container-background2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.bacnkground2{
+    width: 300px;
+    background-color: black;
+    padding: 40px;
+    margin: 40px;
+    text-align: center;
+    opacity: 1;
+}
+
+.containerh1-location{
+    padding-top: 50px;
+}
+
+.h1-location{
+    text-align: center;
+    opacity: .5;
+}
+
+.p-footer{
+    text-align: left;
+    padding-left: 20px;
+}
